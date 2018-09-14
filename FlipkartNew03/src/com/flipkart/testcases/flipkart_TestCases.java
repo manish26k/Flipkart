@@ -56,6 +56,8 @@ public class flipkart_TestCases
 	public void flipkart_Login()
 	{
 		System.out.println("DEBUG: Login fucntion!!");
+		
+		System.out.println("Login fucntion!!");
 
 		flipkart_login FL= new flipkart_login(driver);
         FL.flipkart_login();
