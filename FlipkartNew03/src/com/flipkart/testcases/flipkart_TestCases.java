@@ -39,7 +39,7 @@ public class flipkart_TestCases
 	@BeforeClass
 	public void openBrowser()
 	{
-		rb= ResourceBundle.getBundle("Config.properties");
+		rb= ResourceBundle.getBundle("Config");
 		//System.setProperty("webdriver.chrome.driver","C:/Users/dell/Desktop/Selenium/software/chromedriver/chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
